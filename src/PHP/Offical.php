@@ -1,11 +1,24 @@
 <?php
 
+/*
+random functions I felt like creating
+*/
 
-    function getConvertedPlayerRank(Player $player) {
+    $player = [];
+    $statement = [];
+    $time;
+    $user = [];
+    $keyInt = [];
+    $tutorial = [];
+    $permission;
+    $int = 0 + 1;
+
+
+  function getConvertedPlayerRank(Player $player) {
 	    $config = new Config($this->plugin->playerFolder . strtolower($player->getName()) . ".yml", Config::YAML);
 	    $first = array_key_first($this->getRankCount());
 	    $last = array_key_last($this->getRankCount());
-    }
+  }
          
   function get_next_key_array($array, $key){
     $keys = array_keys($array);
@@ -28,7 +41,7 @@
     
     echo(MESSAGE::get["noStored"]);
     
-    /*$statement["REASON"] = "TO HELP";
+    $statement["REASON"] = "TO HELP";
          echo(strtoupper(space() . $statement["REASON"]));
               getPlayer();
               echo(space() . getPlayer());
@@ -52,4 +65,5 @@
            return $user;
            
     }
+}
     
