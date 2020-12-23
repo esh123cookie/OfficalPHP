@@ -1,4 +1,6 @@
 <?php 
+
+class Calculator {
     
     function getTutorial() {
         return true;
@@ -16,5 +18,4 @@
        echo("notCompleted tutorial");
        
     }
-    
 }
