@@ -1,6 +1,6 @@
 <?php 
 
-class Calculator {
+class Completion {
     
     function getTutorial() {
         return true;
