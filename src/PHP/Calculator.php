@@ -1,5 +1,7 @@
 <?php
 
+class Calculator;
+
    function square($int) {
         $square = $int * $int;
         return $square;
