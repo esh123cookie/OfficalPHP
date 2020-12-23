@@ -4,6 +4,8 @@
 random functions I felt like creating
 */
 
+class SelectName { 
+
     $player = [];
     $statement = [];
     $time;
