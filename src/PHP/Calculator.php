@@ -1,6 +1,6 @@
 <?php
 
-class Calculator;
+class Calculator { 
 
    function square($int) {
         $square = $int * $int;
@@ -32,8 +32,7 @@ class Calculator;
     );
     
     foreach($array as $answer) { 
+    
+         echo(calculate(multiply(5, divide(98, root(300)))));
     }
-    
-    echo(calculate(multiply(5, divide(98, root(300)))));
-    
 }
