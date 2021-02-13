@@ -39,10 +39,12 @@ class Calculator {
     //time 
    
     function time_1(int $t1) { 
+       return $t1;
+    }
        
       
     function time_value() { 
-       if($t1 >= 0 and >= 0) { 
+       if($t1 >= 0 and $t1 >= 0) { 
           $time = (time_1() - time_2());
           return $time;
        }else{
